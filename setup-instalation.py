@@ -40,6 +40,13 @@ extensions = [
     'git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding',
     'git clone https://github.com/hako-mikan/sd-webui-supermerger',
     'git clone https://github.com/huchenlei/sd-webui-openpose-editor',
+    'git clone https://github.com/Mikubill/sd-webui-controlnet',
+    'git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111',
+    'git clone https://github.com/continue-revolution/sd-webui-animatediff',
+    'git clone https://github.com/hako-mikan/sd-webui-regional-prompter',
+    'git clone https://github.com/catppuccin/stable-diffusion-webui',
+    'git clone https://github.com/thomasasfk/sd-webui-aspect-ratio-helper'
+
 ]
 
 for command, message in commands:
