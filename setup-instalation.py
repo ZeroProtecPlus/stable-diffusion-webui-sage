@@ -16,7 +16,8 @@ commands = [
     ('conda install conda -y', 'Conda'),
     ('conda update -n base conda -y', 'Update'),
     ('conda install -n base python=3.10 -y', 'Python'),
-    ('conda install -q -y glib gxx_linux-64 ffmpeg imageio imageio-ffmpeg av gst-libav psutil gperftools aria2 gdown pydantic', 'glib')
+    ('conda install -q -y glib=2.51.0', 'glib'),
+    ('conda install -q -y aria2 gdown', 'aria2 and gdown')
 ]
 
 def download_ext(command):
